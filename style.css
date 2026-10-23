@@ -1,0 +1,17 @@
+:root { --paper: #fdfbf2; --ink: #332e29; --soft: #5c544d; --red: #d1473f; --line: #e8dfcc; }
+* { box-sizing: border-box; }
+body { margin: 0; background: var(--paper); color: var(--ink);
+  font: 16px/1.7 -apple-system, "Apple SD Gothic Neo", "Noto Sans KR", sans-serif;
+  background-image: linear-gradient(var(--line) 1px, transparent 1px), linear-gradient(90deg, var(--line) 1px, transparent 1px);
+  background-size: 22px 22px; }
+main { max-width: 720px; margin: 0 auto; padding: 40px 20px 80px; background: rgba(253, 251, 242, 0.92); }
+h1 { font-size: 28px; margin: 0 0 4px; }
+h1 .sub { font-size: 16px; color: var(--soft); font-weight: 500; margin-left: 6px; }
+h2 { font-size: 19px; margin: 32px 0 8px; color: var(--red); }
+.meta, .lead { color: var(--soft); }
+.mail a { font-size: 20px; font-weight: 600; }
+a { color: var(--red); }
+dt { font-weight: 600; margin-top: 14px; }
+dd { margin: 4px 0 0; color: var(--soft); }
+hr { border: 0; border-top: 1px dashed var(--soft); margin: 40px 0; }
+.nav { font-size: 14px; }
